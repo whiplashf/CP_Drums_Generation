@@ -7,8 +7,8 @@ A seq2seq architecture where a BiLSTM Encoder receives information about the con
 ##### Makris D., Guo Z, Kaliakatsos-Papakostas N., Herremans D., “Conditional Drums Generation using Compound Word Representations” to appear EvoMUSART, 2022.
 
 ## Prerequisites
-
--Tensorflow 2.x  <br />
+-Python 3.9
+-Tensorflow 2.6.0  <br />
 -music21 6.x or lower <br />
 -pretty_midi <br />
 -pypianoroll <br />

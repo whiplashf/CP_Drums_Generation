@@ -1,8 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""
 
-"""
 import os
 os.environ["CUDA_VISIBLE_DEVICES"]="0" #for GPU inference
 from glob import glob
@@ -38,7 +36,7 @@ temperature = 0.9
 #input folder
 inp_path = glob('./midi_in/*.mid')
 #output folder
-midi_out = './'
+midi_out = './midi_out/'
 
 for trk in inp_path:
     #open with PrettyMIDI
